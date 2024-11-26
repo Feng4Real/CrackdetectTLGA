@@ -3,7 +3,7 @@ Crack detection plays a pivotal role in the maintenance and safety of infrastruc
 
 # Data
 
-![Alt Text](CrackdetectTLGA/sample.png)
+![Alt Text](images/sample.png)
 
 Our data sources include the [Crack Forest Dataset (CFD)](https://github.com/cuilimeng/CrackForest-dataset), which consists of 155 images of urban concrete road cracks at an approximate resolution of 480 × 320 pixels, and the Concrete Crack Images for Classification Dataset (CCICD), featuring 20,000 images per class (crack and no-crack) at a resolution of 227 × 227 pixels in RGB format. Despite the availability of seemingly ample data, the CCICD images exhibit a high degree of homogeneity. This uniformity raises concerns about potential overfitting and inflated performance metrics during training and evaluation. To mitigate this issue, we selected a balanced subset of 6,000 images—3,000 per class—from various sources.
 
